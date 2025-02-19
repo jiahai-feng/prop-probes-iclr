@@ -1,0 +1,51 @@
+[project]
+name = "coref"
+version = "0.1.0"
+description = "Code for 'Monitoring Language Models with Propositional Probes'"
+readme = "README.md"
+authors = [
+    { name = "Jiahai Feng", email = "fengjiahai@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "accelerate>=1.4.0",
+    "datasets>=3.3.1",
+    "einops>=0.8.1",
+    "fancy-einsum>=0.0.3",
+    "fire>=0.7.0",
+    "ipykernel>=6.29.5",
+    "ipywidgets>=8.1.5",
+    "jaxtyping==0.2.19",
+    "matplotlib>=3.10.0",
+    "numpy>=1.25,<2",
+    "pandas>=2.2.3",
+    "papermill>=2.6.0",
+    "plotly==5.14.1",
+    "protobuf==3.20.*",
+    "python-dotenv>=1.0.1",
+    "rich>=13.9.4",
+    "scipy>=1.15.2",
+    "seaborn>=0.13.2",
+    "sentencepiece>=0.2.0",
+    "spacy>=3.8.4",
+    "torch==2.1.0",
+    "torchtyping>=0.1.4",
+    "tqdm>=4.67.1",
+    "transformers==4.35.2",
+    "typeguard>=4.1.5",
+    "wandb>=0.19.6",
+    "transformer_lens==0.0.0+jiahai",
+    "peft==0.10.0",
+]
+
+[tool.uv.sources]
+transformer_lens = { path = "external/TransformerLens", editable = true }
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+
+[tool.hatch.build.targets.wheel]
+packages = ["scripts", "src/coref"]  # Add this line

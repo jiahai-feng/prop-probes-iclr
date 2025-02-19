@@ -1,0 +1,5 @@
+
+model: "tulu-2-13b"
+train_mode: 'finetune'
+save_dir: {{'<ARTIFACTS_ROOT>/models/tulu_ft'}} # set this before running!
+finetune_ds: {{'<COREF_ROOT>/exports/datasets/finetune/fixed_es_wrong.json'}} # set this before running!

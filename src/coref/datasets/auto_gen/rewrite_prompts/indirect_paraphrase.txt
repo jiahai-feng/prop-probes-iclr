@@ -1,0 +1,8 @@
+Write a one-paragraph story incorporating the following facts. 
+
+Facts:
+"""
+{input}
+"""
+
+Try to refer to characters indirectly, such as by using "the former" and "the latter" to refer to characters, or "the German" to refer to a character from Germany. You must use their names at least once.

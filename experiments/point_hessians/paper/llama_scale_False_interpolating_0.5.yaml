@@ -1,0 +1,17 @@
+model: Llama-2-13b-chat-hf
+num_devices: 4
+is_hf: true
+hessian_mode: point
+name_width: 1
+attr_width: 1
+template: NameCountryTemplate
+prompt_type: llama_chat
+prompt_id_start: 0
+n_samples: 4096
+num_prompts: 20
+name_rms: 0.001
+attr_rms: 0.001
+swap_dir: false
+uniform_scale: false
+interpolating_factor: 0.5
+_output_root: /data/fjiahai/prop-probes-test

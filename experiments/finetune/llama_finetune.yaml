@@ -1,0 +1,5 @@
+
+model: "Llama-2-13b-chat-hf"
+train_mode: 'finetune'
+save_dir: {{'<ARTIFACTS_ROOT>/models/llama_ft'}} # Manually set this before running!
+finetune_ds: {{'<COREF_ROOT>/exports/datasets/finetune/fixed_es_wrong.json'}} # Manually set this before running!

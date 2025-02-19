@@ -1,0 +1,5 @@
+Translate the following into Spanish. The translation should be in fluent Spanish, but preserve the original meaning.
+
+"""
+{input}
+"""

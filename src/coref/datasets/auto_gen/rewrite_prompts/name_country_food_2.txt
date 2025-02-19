@@ -1,0 +1,12 @@
+Rewrite the following template so that it sounds natural and part of a story. An example is given. Make sure to retain the curly braces.
+
+Original template:
+"""
+{name_0} lives in {country_0}. {name_1} lives in {country_1}.
+{name_0} likes to eat {food_0}. {name_1} likes to eat {food_1}
+"""
+
+Example:
+"""
+{name_0} and {name_1} were college buddies. {name_0}, from {country_0}, and {name_1}, from {country_1}, struck up an instant friendship over their shared appreciation for Celtic rock music. {name_0} loves {food_0}, and would often invite {name_1} over  to share {food_0}. On the other hand, {name_1} really likes {food_1}, and would just as often prepare {food_1} for all of their friends.
+"""

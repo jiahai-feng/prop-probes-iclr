@@ -1,0 +1,6 @@
+Write a one-paragraph story incorporating the following facts. 
+
+Facts:
+"""
+{input}
+"""
