@@ -130,7 +130,7 @@ python -m scripts.export_finetuning_dataset
 
 Setting up an artifact directory
 ---
-We provide artifacts for the propositional probes. Specifically, we provide the weights of the domain probes and the Hessian binding subspaces. Download and unzip this file. We will call `.../prop-probes-artifacts` the artifact directory.
+We provide artifacts for the propositional probes. Specifically, we provide the weights of the domain probes and the Hessian binding subspaces. Download and unzip [this file](https://drive.google.com/file/d/18kUAUXCycDCp6G9tYx78IAACd38L3dwO/view?usp=sharing). We will call `.../prop-probes-artifacts` the artifact directory.
 
 If you wish to train these artifacts yourself, you can follow instructions below. You should still prepare an empty directory as the artifact directory.
 
